@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Examen" Class="LQPersonDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=server.com;Initial Catalog=Examen;User ID=usercyc" SettingsObjectName="DAL.Properties.Settings" SettingsPropertyName="ExamenConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.actualizarPersona" Method="actualizarPersona">
+    <Parameter Name="personId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="firstName" Type="System.String" DbType="VarChar(45)" />
+    <Parameter Name="lastName" Type="System.String" DbType="VarChar(45)" />
+    <Parameter Name="genderId" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.eliminarPersonas" Method="eliminarPersonas">
+    <Parameter Name="personId" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.agregarPersona" Method="agregarPersona">
+    <Parameter Name="firstName" Type="System.String" DbType="VarChar(45)" />
+    <Parameter Name="lastName" Type="System.String" DbType="VarChar(45)" />
+    <Parameter Name="genderId" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.consultarPersona" Method="consultarPersona">
+    <Parameter Name="personId" Type="System.Int32" DbType="Int" />
+    <ElementType Name="consultarPersonaResult">
+      <Column Name="personId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="firstName" Type="System.String" DbType="VarChar(45)" CanBeNull="true" />
+      <Column Name="lastName" Type="System.String" DbType="VarChar(45)" CanBeNull="true" />
+      <Column Name="label" Type="System.String" DbType="VarChar(45)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.consultarPersonas" Method="consultarPersonas">
+    <ElementType Name="consultarPersonasResult">
+      <Column Name="personId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="firstName" Type="System.String" DbType="VarChar(45)" CanBeNull="true" />
+      <Column Name="lastName" Type="System.String" DbType="VarChar(45)" CanBeNull="true" />
+      <Column Name="label" Type="System.String" DbType="VarChar(45)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

@@ -1,0 +1,6 @@
+D:\Universidad\Icuatri2020\Progra Avanzada\Examen 1\src\ExamenCoto\DAL\bin\Debug\DAL.dll.config
+D:\Universidad\Icuatri2020\Progra Avanzada\Examen 1\src\ExamenCoto\DAL\bin\Debug\DAL.dll
+D:\Universidad\Icuatri2020\Progra Avanzada\Examen 1\src\ExamenCoto\DAL\bin\Debug\DAL.pdb
+D:\Universidad\Icuatri2020\Progra Avanzada\Examen 1\src\ExamenCoto\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\Universidad\Icuatri2020\Progra Avanzada\Examen 1\src\ExamenCoto\DAL\obj\Debug\DAL.dll
+D:\Universidad\Icuatri2020\Progra Avanzada\Examen 1\src\ExamenCoto\DAL\obj\Debug\DAL.pdb

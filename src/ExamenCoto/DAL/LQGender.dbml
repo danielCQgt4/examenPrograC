@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Examen" Class="LQGenderDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=server.com;Initial Catalog=Examen;User ID=usercyc" SettingsObjectName="DAL.Properties.Settings" SettingsPropertyName="ExamenConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.actualizarGenero" Method="actualizarGenero">
+    <Parameter Name="genderId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="label" Type="System.String" DbType="VarChar(45)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.agregarGenero" Method="agregarGenero">
+    <Parameter Name="label" Type="System.String" DbType="VarChar(45)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.consultarGenero" Method="consultarGenero">
+    <Parameter Name="genderId" Type="System.Int32" DbType="Int" />
+    <ElementType Name="consultarGeneroResult">
+      <Column Name="genderId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="label" Type="System.String" DbType="VarChar(45)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.consultarGeneros" Method="consultarGeneros">
+    <ElementType Name="consultarGenerosResult">
+      <Column Name="genderId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="label" Type="System.String" DbType="VarChar(45)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.eliminarGenero" Method="eliminarGenero">
+    <Parameter Name="genderId" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

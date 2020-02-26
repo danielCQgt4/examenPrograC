@@ -1,0 +1,9 @@
+D:\Universidad\Icuatri2020\Progra Avanzada\Examen 1\src\ExamenCoto\BLL\bin\Debug\BLL.dll
+D:\Universidad\Icuatri2020\Progra Avanzada\Examen 1\src\ExamenCoto\BLL\bin\Debug\BLL.pdb
+D:\Universidad\Icuatri2020\Progra Avanzada\Examen 1\src\ExamenCoto\BLL\bin\Debug\DAL.dll
+D:\Universidad\Icuatri2020\Progra Avanzada\Examen 1\src\ExamenCoto\BLL\bin\Debug\DAL.pdb
+D:\Universidad\Icuatri2020\Progra Avanzada\Examen 1\src\ExamenCoto\BLL\bin\Debug\DAL.dll.config
+D:\Universidad\Icuatri2020\Progra Avanzada\Examen 1\src\ExamenCoto\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+D:\Universidad\Icuatri2020\Progra Avanzada\Examen 1\src\ExamenCoto\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\Universidad\Icuatri2020\Progra Avanzada\Examen 1\src\ExamenCoto\BLL\obj\Debug\BLL.dll
+D:\Universidad\Icuatri2020\Progra Avanzada\Examen 1\src\ExamenCoto\BLL\obj\Debug\BLL.pdb
