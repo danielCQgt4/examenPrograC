@@ -53,7 +53,7 @@ namespace API.Controllers {
             try {
                 dynamic json = obj;
                 var genderId = Convert.ToInt32(json.genderId.Value);
-                bool result = genero.DeleteGenger(genderId);
+                bool result = genero.DeleteGender(genderId);
                 if (result) {
                     return Ok("Genero eliminado");
                 } else {

@@ -35,7 +35,7 @@ namespace BLL {
             }
         }
 
-        public bool DeleteGenger(int genderId) {
+        public bool DeleteGender(int genderId) {
             try {
                 lQGenderDataContext.eliminarGenero(genderId);
                 return true;
