@@ -88,7 +88,7 @@ GO
 -- Author:		Daniel Coto Quiros
 -- Create date: 2020/02/25
 -- =============================================
-CREATE PROCEDURE consultarPersona
+CREATE PROCEDURE consultarPersonas
 AS
 BEGIN
 	SET NOCOUNT ON;
